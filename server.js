@@ -48,7 +48,7 @@ app.use((req, res) => {
     res.sendFile(path.join(__dirname, "views/public/error", "404.html"));
 });
 
-const PORT_NUMBER = 8088;
+const PORT_NUMBER = 8080;
 
 app.listen(PORT_NUMBER, () => {
     console.log(`Server started. Listening on port ${PORT_NUMBER}`);
